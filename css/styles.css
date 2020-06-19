@@ -1,8 +1,58 @@
-p {
-	color: tomato; /* Declaracion */
-	font-size: 12px; /* Declaracion */
+/* Selector universal */
+/* * {
+	color: turquoise;
+} */
+
+/* Selector Etiqueta */
+
+/* p {
+	color: tomato;
+}
+
+h1 {
+	color: blue;
 }
 
 h2 {
-	color: #caca;
+	color: green;
+} */
+/* em {
+	color: tomato;
+} */
+
+/* Selector Decendiente */
+/* p em {
+	color: tomato;
+} */
+
+/* Selector Clase */
+/* .resaltar {
+	color: tomato;
+} */
+
+/* Selector id */
+/* #lista {
+	font-size: 20px;
+} */
+
+/* Selector Multiple, combinacion */
+/* h1,
+h2,
+#id,
+.clase,
+div p {
+	color: red;
+} */
+
+/* Especifico */
+p.resaltar {
+	color: tomato;
+}
+
+p .resaltar {
+	color: tomato;
+}
+
+p em.resaltar {
+	color: tomato;
 }
